@@ -2,7 +2,7 @@ const url = "https://course-api.com/react-tours-project";
 import Loading from "./Loading";
 import { useEffect } from "react";
 import { useState } from "react";
-import Tour from "./tour";
+import Tour from "./Tour";
 const Tours = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
